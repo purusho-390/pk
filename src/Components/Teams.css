@@ -1,0 +1,43 @@
+
+.teams-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .description {
+    text-align: justify;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    
+  }
+  
+  .image-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .team-member-card {
+
+    width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .team-member-image {
+    border-radius: 50px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .copyright {
+    padding-top: 50px;
+    margin: top 150px;;
+    font-size: 15px;
+    color: #888;
+  }
