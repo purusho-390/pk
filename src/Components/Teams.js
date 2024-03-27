@@ -1,11 +1,6 @@
 import React from 'react';
 import './Teams.css';
 import m1 from "./img/m1.png";
-import m2 from "./img/m2.png";
-import m3 from "./img/m3.png";
-import m4 from "./img/m4.png";
-
-
 
 
 function Teams(){
@@ -26,54 +21,54 @@ function Teams(){
             className="team-member-image"
           />
           
-          <p><h4>BENAZIR BEGAM R M.E [P.hD]</h4>     
-              Assistant Professor(SG) 
-               Department of ECE
-          Rajalakshmi Engineering College
+          <p><h4>Guide Name</h4>
+              Assistant Professor        
+               Department of CSE<br></br>
+            Agni College of Technology
          </p>
         </div>
 
         
         <div className="team-member-card">
           <img
-            src={m2}
+            src={m1}
             alt="Team Member 2"
             className="team-member-image"
           />
-          <p><h4>MALAVIKA R</h4>        
-               Department of ECE
-          Rajalakshmi Engineering College
+          <p><h4>Afrin Noorjahan S</h4>        
+               Department of CSE<br></br>
+               Agni College of Technology
          </p>
         </div>
 
         
         <div className="team-member-card">
           <img
-            src={m3}
+            src={m1}
             alt="Team Member 3"
             className="team-member-image"
           />
-          <p><h4>MUGIL KUMAR P</h4>        
-               Department of ECE
-          Rajalakshmi Engineering College
+          <p><h4>Team Member 2</h4>        
+               Department of CSE<br></br>
+               Agni College of Technology
          </p>
         </div>
 
        
         <div className="team-member-card">
           <img
-            src={m4}
+            src={m1}
             alt="Team Member 4"
             className="team-member-image"
           />
-         <p><h4>PEARLY SHARON P</h4>        
-               Department of ECE
-          Rajalakshmi Engineering College
+         <p><h4>Team Member 3</h4>        
+               Department of CSE<br></br>
+               Agni College of Technology
          </p>
         </div>
       </div>
 
-      <footer className="copyright">© 2024 SADDL.com. All rights reserved.</footer>
+      <footer className="copyright">© 2024 PK-AI-SUITE.com All rights reserved.</footer>
     </div>
   );
 };

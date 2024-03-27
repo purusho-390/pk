@@ -30,7 +30,7 @@
   }
   
   .team-member-image {
-    border-radius: 50px;
+    border-radius: 100px;
     width: 100%;
     height: auto;
   }
@@ -39,5 +39,5 @@
     padding-top: 50px;
     margin: top 150px;;
     font-size: 15px;
-    color: #888;
+    color: #522907;
   }

@@ -14,13 +14,14 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    background-color: #333;
+    background-color: #3a3a38;
     color: white;
   }
   
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #d67b14;
   }
   
   ul {
@@ -34,7 +35,7 @@ body {
     margin-right: 20px;
   }
   li:hover{
-    background-color: rgb(26, 123, 161);
+    background-color: rgb(206, 120, 8);
     border-radius: 10px;
   }
   
@@ -45,7 +46,7 @@ body {
   
   button {
     padding: 10px;
-    background-color: #1488d6;
+    background-color: #d67b14;
     color: white;
     border: none;
     cursor: pointer;
@@ -53,7 +54,7 @@ body {
   }
   
   .hero {
-    background: url("test.jpg") center/cover no-repeat;
+    background: url("bgm_pk.png") center/cover no-repeat;
     height: 86vh; 
     display: flex;
     align-items: center;

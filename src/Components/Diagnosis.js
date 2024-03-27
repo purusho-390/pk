@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Detection.css';
+import './Diagnosis.css';
 
-const Detection = () => {
+const Diagnosis = () => {
   const [uploadedImage, setUploadedImage] = useState(null);
   const [results, setResults] = useState('');
   const [isDragging, setIsDragging] = useState(false);
@@ -31,7 +31,7 @@ const Detection = () => {
     document.getElementById('fileInput').click();
   };
 
-  const handleDetect = async () => {
+  const handleUpload = async () => {
     if (uploadedImage) {
       const formData = new FormData();
       formData.append("file", uploadedImage);
@@ -63,7 +63,7 @@ const Detection = () => {
 
   return (
     <div className="detection-container">
-      <h2>Parkinson Detection using MRI Images</h2>
+      <h2>Parkinson Diagnosis using Spiral/wave Drawings</h2>
 
       <div
         className={`drop-area ${isDragging ? 'dragging' : ''}`}
@@ -97,7 +97,7 @@ const Detection = () => {
       <div className="button-group">
         {uploadedImage && (
           <>
-            <button className="detect-button" onClick={handleDetect}>
+            <button className="upload-button" onClick={handleUpload}>
               Upload
             </button>
             <button className="reupload-button" onClick={handleReupload}>
@@ -117,4 +117,4 @@ const Detection = () => {
   );
 };
 
-export default Detection;
+export default Diagnosis;
